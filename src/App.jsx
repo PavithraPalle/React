@@ -71,21 +71,54 @@
 // export default App
 
 
-//! Props children example
-import React from 'react'
-import ChildProps from './propsexample/ChildProps'
-import PropsChildren from './propsexample/PropsChildren'
+// //! Props children example
+// import React from 'react'
+// import ChildProps from './propsexample/ChildProps'
+// import PropsChildren from './propsexample/PropsChildren'
 
-const App = () => {
-  return (
-    <div>
-      <PropsChildren username="Pavithra" company="TCS">
-        <h1>This data is passed as props children</h1>
-        <ChildProps name="Pavithra"/>
-      </PropsChildren>
-    </div>
-  )
+// const App = () => {
+//   return (
+//     <div>
+//       <PropsChildren username="Pavithra" company="TCS">
+//         <h1>This data is passed as props children</h1>
+//         <ChildProps name="Pavithra"/>
+//       </PropsChildren>
+//     </div>
+//   )
+// }
+
+// export default App
+
+// //! state
+// import React, { Component } from 'react';
+// import CBCStateEx from './stateexample/CBCStateEx';
+
+// class App extends Component {
+//   render() {
+//     return (
+//       <div>App
+//         <CBCStateEx />
+//       </div>
+//     )
+//   }
+// }
+
+// export default App;
+
+import React, { Component } from 'react';
+import FBCStateEx from './stateexample/FBCStateEx';
+
+class App extends Component {
+  render() {
+    return (
+      <div>App
+        <FBCStateEx />
+      </div>
+    )
+  }
 }
 
-export default App
+export default App;
+
+
 
