@@ -89,7 +89,7 @@
 
 // export default App
 
-// //! state
+//! state
 // import React, { Component } from 'react';
 // import CBCStateEx from './stateexample/CBCStateEx';
 
@@ -105,20 +105,37 @@
 
 // export default App;
 
-import React, { Component } from 'react';
-import FBCStateEx from './stateexample/FBCStateEx';
+// import React, { Component } from 'react';
+// import FBCStateEx from './stateexample/FBCStateEx';
 
-class App extends Component {
-  render() {
-    return (
-      <div>App
-        <FBCStateEx />
-      </div>
-    )
-  }
+// class App extends Component {
+//   render() {
+//     return (
+//       <div>App
+//         <FBCStateEx />
+//       </div>
+//     )
+//   }
+// }
+
+// export default App;
+
+import React from 'react';
+import FunctionalComponent from './component/FunctionalComponent';
+
+const App = () => {
+  return (
+    <div>App
+      <hr />
+      <FunctionalComponent city="HYD" state="TG" apply={true} />
+      <h1 className='heading'>Hi!!!!!</h1>
+      <h2 className='error'>ERRRORRRR!!!! 404 NOT FOUND</h2>
+      <h2>Hello, World!</h2>
+      <h3>Hello, React!</h3>
+    </div>
+  )
 }
 
 export default App;
-
 
 
