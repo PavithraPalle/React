@@ -120,22 +120,38 @@
 
 // export default App;
 
-import React from 'react';
-import FunctionalComponent from './component/FunctionalComponent';
+// import React from 'react';
+// import FunctionalComponent from './component/FunctionalComponent';
+
+
+// const App = () => {
+//   return (
+//     <div>App
+//       <hr />
+//       <FunctionalComponent city="HYD" state="TG" apply={true} />
+//       <h1 className='heading'>Hi!!!!!</h1>
+//       <h2 className='error'>ERRRORRRR!!!! 404 NOT FOUND</h2>
+//       <h2>Hello, World!</h2>
+//       <h3>Hello, React!</h3>
+//     </div>
+//   )
+// }
+
+// export default App;
+
+//! Basic hooks
+import React from 'react'
+import ExUseEffect from './hooks/ExUseEffect'
 
 const App = () => {
   return (
     <div>App
       <hr />
-      <FunctionalComponent city="HYD" state="TG" apply={true} />
-      <h1 className='heading'>Hi!!!!!</h1>
-      <h2 className='error'>ERRRORRRR!!!! 404 NOT FOUND</h2>
-      <h2>Hello, World!</h2>
-      <h3>Hello, React!</h3>
+      <ExUseEffect />
     </div>
   )
 }
 
-export default App;
+export default App
 
 
