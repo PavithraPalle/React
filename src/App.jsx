@@ -141,13 +141,14 @@
 
 //! Basic hooks
 import React from 'react'
-import ExUseEffect from './hooks/ExUseEffect'
+import RefExamples from './hooks/RefExamples'
 
 const App = () => {
   return (
     <div>App
       <hr />
-      <ExUseEffect />
+      {/* <ExUseEffect /> */}
+      <RefExamples />
     </div>
   )
 }

@@ -25,11 +25,13 @@ const ExUseEffect = () => {
             {
                 users.map((user, i) => {
                     return (
+                        //! empty fragment
                         // <>
                         //     <h1>{user.name}</h1>
                         //     <h2>{user.email}</h2>
                         // </>
 
+                        //! React.Fragment
                         <React.Fragment key={i}>
                             <h1>{user.name}</h1>
                             <h2>{user.email}</h2>
