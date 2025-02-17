@@ -1,23 +1,16 @@
-import React from 'react';
-
-// class Navbar extends React.Component {
-//     render() {
-//         return (
-//             <div className="Navbar">
-//                 <h1>Navbar</h1>
-//             </div>
-//         )
-//     }
-// }
-// export default Navbar;
+import React from 'react'
+import Logo from './Logo'
+import MenuLinks from './MenuLinks'
 
 const Navbar = () => {
-    return (
-        <div>
-            <h1>Navbar</h1>
-        </div>
-    )
+  return (
+    <section id="navBlock">
+        <article>
+            <Logo/>
+            <MenuLinks/>
+        </article>
+    </section>
+  )
 }
 
-export default Navbar;
-
+export default Navbar
